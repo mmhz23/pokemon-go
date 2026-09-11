@@ -1,0 +1,4591 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "number": 1,
+      "name": "Bulbasaur",
+      "hp": 45,
+      "cp": 1115,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/001.png?raw=true",
+      "types": ["Grass", "Poison"],
+      "height": "0.71 m",
+      "weight": "6.9 kg",
+      "candy": {
+        "name": "Bulbasaur Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 0.69,
+        "average": 69,
+        "time": "20:00"
+      },
+      "multipliers": [1.58],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "evolution": {
+        "next": [
+          {
+            "number": 2,
+            "name": "Ivysaur"
+          },
+          {
+            "number": 3,
+            "name": "Venusaur"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "name": "Ivysaur",
+      "hp": 60,
+      "cp": 1550,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/002.png?raw=true",
+      "types": ["Grass", "Poison"],
+      "height": "0.99 m",
+      "weight": "13.0 kg",
+      "candy": {
+        "name": "Bulbasaur Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.042,
+        "average": 4.2,
+        "time": "07:00"
+      },
+      "multipliers": [1.2, 1.6],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 1,
+            "name": "Bulbasaur"
+          }
+        ],
+        "next": [
+          {
+            "number": 3,
+            "name": "Venusaur"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "name": "Venusaur",
+      "hp": 80,
+      "cp": 2580,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/003.png?raw=true",
+      "types": ["Grass", "Poison"],
+      "height": "2.01 m",
+      "weight": "100.0 kg",
+      "candy": {
+        "name": "Bulbasaur Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.017,
+        "average": 1.7,
+        "time": "11:30"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 1,
+            "name": "Bulbasaur"
+          },
+          {
+            "number": 2,
+            "name": "Ivysaur"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "name": "Charmander",
+      "hp": 39,
+      "cp": 955,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/004.png?raw=true",
+      "types": ["Fire"],
+      "height": "0.61 m",
+      "weight": "8.5 kg",
+      "candy": {
+        "name": "Charmander Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 0.253,
+        "average": 25.3,
+        "time": "08:45"
+      },
+      "multipliers": [1.65],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "evolution": {
+        "next": [
+          {
+            "number": 5,
+            "name": "Charmeleon"
+          },
+          {
+            "number": 6,
+            "name": "Charizard"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "name": "Charmeleon",
+      "hp": 58,
+      "cp": 1480,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/005.png?raw=true",
+      "types": ["Fire"],
+      "height": "1.09 m",
+      "weight": "19.0 kg",
+      "candy": {
+        "name": "Charmander Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.012,
+        "average": 1.2,
+        "time": "19:00"
+      },
+      "multipliers": [1.79],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 4,
+            "name": "Charmander"
+          }
+        ],
+        "next": [
+          {
+            "number": 6,
+            "name": "Charizard"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "name": "Charizard",
+      "hp": 78,
+      "cp": 2686,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/006.png?raw=true",
+      "types": ["Fire", "Flying"],
+      "height": "1.70 m",
+      "weight": "90.5 kg",
+      "candy": {
+        "name": "Charmander Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0031,
+        "average": 0.31,
+        "time": "13:34"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Electric", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 4,
+            "name": "Charmander"
+          },
+          {
+            "number": 5,
+            "name": "Charmeleon"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "name": "Squirtle",
+      "hp": 44,
+      "cp": 985,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/007.png?raw=true",
+      "types": ["Water"],
+      "height": "0.51 m",
+      "weight": "9.0 kg",
+      "candy": {
+        "name": "Squirtle Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 0.58,
+        "average": 58,
+        "time": "04:25"
+      },
+      "multipliers": [2.1],
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "next": [
+          {
+            "number": 8,
+            "name": "Wartortle"
+          },
+          {
+            "number": 9,
+            "name": "Blastoise"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "name": "Wartortle",
+      "hp": 59,
+      "cp": 1430,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/008.png?raw=true",
+      "types": ["Water"],
+      "height": "0.99 m",
+      "weight": "22.5 kg",
+      "candy": {
+        "name": "Squirtle Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.034,
+        "average": 3.4,
+        "time": "07:02"
+      },
+      "multipliers": [1.4],
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 7,
+            "name": "Squirtle"
+          }
+        ],
+        "next": [
+          {
+            "number": 9,
+            "name": "Blastoise"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "name": "Blastoise",
+      "hp": 79,
+      "cp": 2466,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/009.png?raw=true",
+      "types": ["Water"],
+      "height": "1.60 m",
+      "weight": "85.5 kg",
+      "candy": {
+        "name": "Squirtle Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0067,
+        "average": 0.67,
+        "time": "00:06"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 7,
+            "name": "Squirtle"
+          },
+          {
+            "number": 8,
+            "name": "Wartortle"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "name": "Caterpie",
+      "hp": 45,
+      "cp": 443,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/010.png?raw=true",
+      "types": ["Bug"],
+      "height": "0.30 m",
+      "weight": "2.9 kg",
+      "candy": {
+        "name": "Caterpie Candy",
+        "count": 12
+      },
+      "spawn": {
+        "chance": 3.032,
+        "average": 303.2,
+        "time": "16:35"
+      },
+      "multipliers": [1.05],
+      "weaknesses": ["Fire", "Flying", "Rock"],
+      "evolution": {
+        "next": [
+          {
+            "number": 11,
+            "name": "Metapod"
+          },
+          {
+            "number": 12,
+            "name": "Butterfree"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "name": "Metapod",
+      "hp": 50,
+      "cp": 489,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/011.png?raw=true",
+      "types": ["Bug"],
+      "height": "0.71 m",
+      "weight": "9.9 kg",
+      "candy": {
+        "name": "Caterpie Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.187,
+        "average": 18.7,
+        "time": "02:11"
+      },
+      "multipliers": [3.55, 3.79],
+      "weaknesses": ["Fire", "Flying", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 10,
+            "name": "Caterpie"
+          }
+        ],
+        "next": [
+          {
+            "number": 12,
+            "name": "Butterfree"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "name": "Butterfree",
+      "hp": 60,
+      "cp": 1790,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/012.png?raw=true",
+      "types": ["Bug", "Flying"],
+      "height": "1.09 m",
+      "weight": "32.0 kg",
+      "candy": {
+        "name": "Caterpie Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.022,
+        "average": 2.2,
+        "time": "05:23"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Electric", "Ice", "Flying", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 10,
+            "name": "Caterpie"
+          },
+          {
+            "number": 11,
+            "name": "Metapod"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "name": "Weedle",
+      "hp": 40,
+      "cp": 449,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/013.png?raw=true",
+      "types": ["Bug", "Poison"],
+      "height": "0.30 m",
+      "weight": "3.2 kg",
+      "candy": {
+        "name": "Weedle Candy",
+        "count": 12
+      },
+      "spawn": {
+        "chance": 7.12,
+        "average": 712,
+        "time": "02:21"
+      },
+      "multipliers": [1.01, 1.09],
+      "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
+      "evolution": {
+        "next": [
+          {
+            "number": 14,
+            "name": "Kakuna"
+          },
+          {
+            "number": 15,
+            "name": "Beedrill"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "name": "Kakuna",
+      "hp": 45,
+      "cp": 483,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/014.png?raw=true",
+      "types": ["Bug", "Poison"],
+      "height": "0.61 m",
+      "weight": "10.0 kg",
+      "candy": {
+        "name": "Weedle Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.44,
+        "average": 44,
+        "time": "02:30"
+      },
+      "multipliers": [3.01, 3.41],
+      "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 13,
+            "name": "Weedle"
+          }
+        ],
+        "next": [
+          {
+            "number": 15,
+            "name": "Beedrill"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "name": "Beedrill",
+      "hp": 65,
+      "cp": 2050,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/015.png?raw=true",
+      "types": ["Bug", "Poison"],
+      "height": "0.99 m",
+      "weight": "29.5 kg",
+      "candy": {
+        "name": "Weedle Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.051,
+        "average": 5.1,
+        "time": "04:50"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 13,
+            "name": "Weedle"
+          },
+          {
+            "number": 14,
+            "name": "Kakuna"
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "name": "Pidgey",
+      "hp": 40,
+      "cp": 679,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/016.png?raw=true",
+      "types": ["Normal", "Flying"],
+      "height": "0.30 m",
+      "weight": "1.8 kg",
+      "candy": {
+        "name": "Pidgey Candy",
+        "count": 12
+      },
+      "spawn": {
+        "chance": 15.98,
+        "average": 1.598,
+        "time": "01:34"
+      },
+      "multipliers": [1.71, 1.92],
+      "weaknesses": ["Electric", "Rock"],
+      "evolution": {
+        "next": [
+          {
+            "number": 17,
+            "name": "Pidgeotto"
+          },
+          {
+            "number": 18,
+            "name": "Pidgeot"
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "name": "Pidgeotto",
+      "hp": 63,
+      "cp": 1190,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/017.png?raw=true",
+      "types": ["Normal", "Flying"],
+      "height": "1.09 m",
+      "weight": "30.0 kg",
+      "candy": {
+        "name": "Pidgey Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 1.02,
+        "average": 102,
+        "time": "01:30"
+      },
+      "multipliers": [1.79],
+      "weaknesses": ["Electric", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 16,
+            "name": "Pidgey"
+          }
+        ],
+        "next": [
+          {
+            "number": 18,
+            "name": "Pidgeot"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "name": "Pidgeot",
+      "hp": 83,
+      "cp": 2002,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/018.png?raw=true",
+      "types": ["Normal", "Flying"],
+      "height": "1.50 m",
+      "weight": "39.5 kg",
+      "candy": {
+        "name": "Pidgey Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.13,
+        "average": 13,
+        "time": "01:50"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 16,
+            "name": "Pidgey"
+          },
+          {
+            "number": 17,
+            "name": "Pidgeotto"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "name": "Rattata",
+      "hp": 30,
+      "cp": 577,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/019.png?raw=true",
+      "types": ["Normal"],
+      "height": "0.30 m",
+      "weight": "3.5 kg",
+      "candy": {
+        "name": "Rattata Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 13.05,
+        "average": 1.305,
+        "time": "01:55"
+      },
+      "multipliers": [2.55, 2.73],
+      "weaknesses": ["Fighting"],
+      "evolution": {
+        "next": [
+          {
+            "number": 20,
+            "name": "Raticate"
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "name": "Raticate",
+      "hp": 55,
+      "cp": 1480,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/020.png?raw=true",
+      "types": ["Normal"],
+      "height": "0.71 m",
+      "weight": "18.5 kg",
+      "candy": {
+        "name": "Rattata Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.41,
+        "average": 41,
+        "time": "01:56"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fighting"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 19,
+            "name": "Rattata"
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "name": "Spearow",
+      "hp": 40,
+      "cp": 673,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/021.png?raw=true",
+      "types": ["Normal", "Flying"],
+      "height": "0.30 m",
+      "weight": "2.0 kg",
+      "candy": {
+        "name": "Spearow Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 4.73,
+        "average": 473,
+        "time": "12:25"
+      },
+      "multipliers": [2.66, 2.68],
+      "weaknesses": ["Electric", "Rock"],
+      "evolution": {
+        "next": [
+          {
+            "number": 22,
+            "name": "Fearow"
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "name": "Fearow",
+      "hp": 65,
+      "cp": 1800,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/022.png?raw=true",
+      "types": ["Normal", "Flying"],
+      "height": "1.19 m",
+      "weight": "38.0 kg",
+      "candy": {
+        "name": "Spearow Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.15,
+        "average": 15,
+        "time": "01:11"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 21,
+            "name": "Spearow"
+          }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "name": "Ekans",
+      "hp": 35,
+      "cp": 825,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/023.png?raw=true",
+      "types": ["Poison"],
+      "height": "2.01 m",
+      "weight": "6.9 kg",
+      "candy": {
+        "name": "Ekans Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 2.27,
+        "average": 227,
+        "time": "12:20"
+      },
+      "multipliers": [2.21, 2.27],
+      "weaknesses": ["Ground", "Psychic"],
+      "evolution": {
+        "next": [
+          {
+            "number": 24,
+            "name": "Arbok"
+          }
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "name": "Arbok",
+      "hp": 60,
+      "cp": 1693,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/024.png?raw=true",
+      "types": ["Poison"],
+      "height": "3.51 m",
+      "weight": "65.0 kg",
+      "candy": {
+        "name": "Ekans Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.072,
+        "average": 7.2,
+        "time": "01:50"
+      },
+      "multipliers": null,
+      "weaknesses": ["Ground", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 23,
+            "name": "Ekans"
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "name": "Pikachu",
+      "hp": 35,
+      "cp": 890,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/025.png?raw=true",
+      "types": ["Electric"],
+      "height": "0.41 m",
+      "weight": "6.0 kg",
+      "candy": {
+        "name": "Pikachu Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.21,
+        "average": 21,
+        "time": "04:00"
+      },
+      "multipliers": [2.34],
+      "weaknesses": ["Ground"],
+      "evolution": {
+        "next": [
+          {
+            "number": 26,
+            "name": "Raichu"
+          }
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "name": "Raichu",
+      "hp": 60,
+      "cp": 1925,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/026.png?raw=true",
+      "types": ["Electric"],
+      "height": "0.79 m",
+      "weight": "30.0 kg",
+      "candy": {
+        "name": "Pikachu Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0076,
+        "average": 0.76,
+        "time": "23:58"
+      },
+      "multipliers": null,
+      "weaknesses": ["Ground"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 25,
+            "name": "Pikachu"
+          }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "name": "Sandshrew",
+      "hp": 50,
+      "cp": 1195,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/027.png?raw=true",
+      "types": ["Ground"],
+      "height": "0.61 m",
+      "weight": "12.0 kg",
+      "candy": {
+        "name": "Sandshrew Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 1.11,
+        "average": 111,
+        "time": "01:58"
+      },
+      "multipliers": [2.45],
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "evolution": {
+        "next": [
+          {
+            "number": 28,
+            "name": "Sandslash"
+          }
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "name": "Sandslash",
+      "hp": 75,
+      "cp": 2250,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/028.png?raw=true",
+      "types": ["Ground"],
+      "height": "0.99 m",
+      "weight": "29.5 kg",
+      "candy": {
+        "name": "Sandshrew Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.037,
+        "average": 3.7,
+        "time": "12:34"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 27,
+            "name": "Sandshrew"
+          }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "name": "Nidoran ♀ (Female)",
+      "hp": 55,
+      "cp": 821,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/029.png?raw=true",
+      "types": ["Poison"],
+      "height": "0.41 m",
+      "weight": "7.0 kg",
+      "candy": {
+        "name": "Nidoran ♀ (Female) Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 1.38,
+        "average": 138,
+        "time": "01:51"
+      },
+      "multipliers": [1.63, 2.48],
+      "weaknesses": ["Ground", "Psychic"],
+      "evolution": {
+        "next": [
+          {
+            "number": 30,
+            "name": "Nidorina"
+          },
+          {
+            "number": 31,
+            "name": "Nidoqueen"
+          }
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "name": "Nidorina",
+      "hp": 70,
+      "cp": 1300,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/030.png?raw=true",
+      "types": ["Poison"],
+      "height": "0.79 m",
+      "weight": "20.0 kg",
+      "candy": {
+        "name": "Nidoran ♀ (Female) Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.088,
+        "average": 8.8,
+        "time": "07:22"
+      },
+      "multipliers": [1.83, 2.48],
+      "weaknesses": ["Ground", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 29,
+            "name": "Nidoran(Female)"
+          }
+        ],
+        "next": [
+          {
+            "number": 31,
+            "name": "Nidoqueen"
+          }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "name": "Nidoqueen",
+      "hp": 90,
+      "cp": 2400,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/031.png?raw=true",
+      "types": ["Poison", "Ground"],
+      "height": "1.30 m",
+      "weight": "60.0 kg",
+      "candy": {
+        "name": "Nidoran ♀ (Female) Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.012,
+        "average": 1.2,
+        "time": "12:35"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Ice", "Ground", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 29,
+            "name": "Nidoran(Female)"
+          },
+          {
+            "number": 30,
+            "name": "Nidorina"
+          }
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "name": "Nidoran ♂ (Male)",
+      "hp": 46,
+      "cp": 843,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/032.png?raw=true",
+      "types": ["Poison"],
+      "height": "0.51 m",
+      "weight": "9.0 kg",
+      "candy": {
+        "name": "Nidoran ♂ (Male) Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 1.31,
+        "average": 131,
+        "time": "01:12"
+      },
+      "multipliers": [1.64, 1.7],
+      "weaknesses": ["Ground", "Psychic"],
+      "evolution": {
+        "next": [
+          {
+            "number": 33,
+            "name": "Nidorino"
+          },
+          {
+            "number": 34,
+            "name": "Nidoking"
+          }
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "name": "Nidorino",
+      "hp": 61,
+      "cp": 1370,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/033.png?raw=true",
+      "types": ["Poison"],
+      "height": "0.89 m",
+      "weight": "19.5 kg",
+      "candy": {
+        "name": "Nidoran ♂ (Male) Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.083,
+        "average": 8.3,
+        "time": "09:02"
+      },
+      "multipliers": [1.83],
+      "weaknesses": ["Ground", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 32,
+            "name": "Nidoran(Male)"
+          }
+        ],
+        "next": [
+          {
+            "number": 34,
+            "name": "Nidoking"
+          }
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "name": "Nidoking",
+      "hp": 81,
+      "cp": 2440,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/034.png?raw=true",
+      "types": ["Poison", "Ground"],
+      "height": "1.40 m",
+      "weight": "62.0 kg",
+      "candy": {
+        "name": "Nidoran ♂ (Male) Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.017,
+        "average": 1.7,
+        "time": "12:16"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Ice", "Ground", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 32,
+            "name": "Nidoran(Male)"
+          },
+          {
+            "number": 33,
+            "name": "Nidorino"
+          }
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "name": "Clefairy",
+      "hp": 70,
+      "cp": 1100,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/035.png?raw=true",
+      "types": ["Normal"],
+      "height": "0.61 m",
+      "weight": "7.5 kg",
+      "candy": {
+        "name": "Clefairy Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.92,
+        "average": 92,
+        "time": "03:30"
+      },
+      "multipliers": [2.03, 2.14],
+      "weaknesses": ["Fighting"],
+      "evolution": {
+        "next": [
+          {
+            "number": 36,
+            "name": "Clefable"
+          }
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "name": "Clefable",
+      "hp": 95,
+      "cp": 2200,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/036.png?raw=true",
+      "types": ["Normal"],
+      "height": "1.30 m",
+      "weight": "40.0 kg",
+      "candy": {
+        "name": "Clefairy Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.012,
+        "average": 1.2,
+        "time": "03:29"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fighting"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 35,
+            "name": "Clefairy"
+          }
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "name": "Vulpix",
+      "hp": 38,
+      "cp": 685,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/037.png?raw=true",
+      "types": ["Fire"],
+      "height": "0.61 m",
+      "weight": "9.9 kg",
+      "candy": {
+        "name": "Vulpix Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.22,
+        "average": 22,
+        "time": "13:43"
+      },
+      "multipliers": [2.74, 2.81],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "evolution": {
+        "next": [
+          {
+            "number": 38,
+            "name": "Ninetales"
+          }
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "name": "Ninetales",
+      "hp": 73,
+      "cp": 2150,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/038.png?raw=true",
+      "types": ["Fire"],
+      "height": "1.09 m",
+      "weight": "19.9 kg",
+      "candy": {
+        "name": "Vulpix Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0077,
+        "average": 0.77,
+        "time": "01:32"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 37,
+            "name": "Vulpix"
+          }
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "number": 39,
+      "name": "Jigglypuff",
+      "hp": 115,
+      "cp": 640,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/039.png?raw=true",
+      "types": ["Normal"],
+      "height": "0.51 m",
+      "weight": "5.5 kg",
+      "candy": {
+        "name": "Jigglypuff Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.39,
+        "average": 39,
+        "time": "08:46"
+      },
+      "multipliers": [1.85],
+      "weaknesses": ["Fighting"],
+      "evolution": {
+        "next": [
+          {
+            "number": 40,
+            "name": "Wigglytuff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "number": 40,
+      "name": "Wigglytuff",
+      "hp": 140,
+      "cp": 1670,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/040.png?raw=true",
+      "types": ["Normal"],
+      "height": "0.99 m",
+      "weight": "12.0 kg",
+      "candy": {
+        "name": "Jigglypuff Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.018,
+        "average": 1.8,
+        "time": "12:28"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fighting"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 39,
+            "name": "Jigglypuff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "number": 41,
+      "name": "Zubat",
+      "hp": 40,
+      "cp": 613,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/041.png?raw=true",
+      "types": ["Poison", "Flying"],
+      "height": "0.79 m",
+      "weight": "7.5 kg",
+      "candy": {
+        "name": "Zubat Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 6.52,
+        "average": 652,
+        "time": "12:28"
+      },
+      "multipliers": [2.6, 3.67],
+      "weaknesses": ["Electric", "Ice", "Psychic", "Rock"],
+      "evolution": {
+        "next": [
+          {
+            "number": 42,
+            "name": "Golbat"
+          }
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "number": 42,
+      "name": "Golbat",
+      "hp": 75,
+      "cp": 1730,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/042.png?raw=true",
+      "types": ["Poison", "Flying"],
+      "height": "1.60 m",
+      "weight": "55.0 kg",
+      "candy": {
+        "name": "Zubat Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.42,
+        "average": 42,
+        "time": "02:15"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Ice", "Psychic", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 41,
+            "name": "Zubat"
+          }
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "number": 43,
+      "name": "Oddish",
+      "hp": 45,
+      "cp": 1165,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/043.png?raw=true",
+      "types": ["Grass", "Poison"],
+      "height": "0.51 m",
+      "weight": "5.4 kg",
+      "candy": {
+        "name": "Oddish Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 1.02,
+        "average": 102,
+        "time": "03:58"
+      },
+      "multipliers": [1.5],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "evolution": {
+        "next": [
+          {
+            "number": 44,
+            "name": "Gloom"
+          },
+          {
+            "number": 45,
+            "name": "Vileplume"
+          }
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "number": 44,
+      "name": "Gloom",
+      "hp": 60,
+      "cp": 1500,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/044.png?raw=true",
+      "types": ["Grass", "Poison"],
+      "height": "0.79 m",
+      "weight": "8.6 kg",
+      "candy": {
+        "name": "Oddish Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.064,
+        "average": 6.4,
+        "time": "11:33"
+      },
+      "multipliers": [1.49],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 43,
+            "name": "Oddish"
+          }
+        ],
+        "next": [
+          {
+            "number": 45,
+            "name": "Vileplume"
+          }
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "number": 45,
+      "name": "Vileplume",
+      "hp": 75,
+      "cp": 2378,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/045.png?raw=true",
+      "types": ["Grass", "Poison"],
+      "height": "1.19 m",
+      "weight": "18.6 kg",
+      "candy": {
+        "name": "Oddish Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0097,
+        "average": 0.97,
+        "time": "23:58"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 43,
+            "name": "Oddish"
+          },
+          {
+            "number": 44,
+            "name": "Gloom"
+          }
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "number": 46,
+      "name": "Paras",
+      "hp": 35,
+      "cp": 910,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/046.png?raw=true",
+      "types": ["Bug", "Grass"],
+      "height": "0.30 m",
+      "weight": "5.4 kg",
+      "candy": {
+        "name": "Paras Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 2.36,
+        "average": 236,
+        "time": "01:42"
+      },
+      "multipliers": [2.02],
+      "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug", "Rock"],
+      "evolution": {
+        "next": [
+          {
+            "number": 47,
+            "name": "Parasect"
+          }
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "number": 47,
+      "name": "Parasect",
+      "hp": 60,
+      "cp": 1720,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/047.png?raw=true",
+      "types": ["Bug", "Grass"],
+      "height": "0.99 m",
+      "weight": "29.5 kg",
+      "candy": {
+        "name": "Paras Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.074,
+        "average": 7.4,
+        "time": "01:22"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 46,
+            "name": "Paras"
+          }
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "number": 48,
+      "name": "Venonat",
+      "hp": 60,
+      "cp": 1090,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/048.png?raw=true",
+      "types": ["Bug", "Poison"],
+      "height": "0.99 m",
+      "weight": "30.0 kg",
+      "candy": {
+        "name": "Venonat Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 2.28,
+        "average": 228,
+        "time": "02:31"
+      },
+      "multipliers": [1.86, 1.9],
+      "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
+      "evolution": {
+        "next": [
+          {
+            "number": 49,
+            "name": "Venomoth"
+          }
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "number": 49,
+      "name": "Venomoth",
+      "hp": 70,
+      "cp": 1860,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/049.png?raw=true",
+      "types": ["Bug", "Poison"],
+      "height": "1.50 m",
+      "weight": "12.5 kg",
+      "candy": {
+        "name": "Venonat Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.072,
+        "average": 7.2,
+        "time": "23:40"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 48,
+            "name": "Venonat"
+          }
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "number": 50,
+      "name": "Diglett",
+      "hp": 10,
+      "cp": 413,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/050.png?raw=true",
+      "types": ["Ground"],
+      "height": "0.20 m",
+      "weight": "0.8 kg",
+      "candy": {
+        "name": "Diglett Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.4,
+        "average": 40,
+        "time": "02:22"
+      },
+      "multipliers": [2.69],
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "evolution": {
+        "next": [
+          {
+            "number": 51,
+            "name": "Dugtrio"
+          }
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "number": 51,
+      "name": "Dugtrio",
+      "hp": 35,
+      "cp": 1490,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/051.png?raw=true",
+      "types": ["Ground"],
+      "height": "0.71 m",
+      "weight": "33.3 kg",
+      "candy": {
+        "name": "Dugtrio",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.014,
+        "average": 1.4,
+        "time": "12:37"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 50,
+            "name": "Diglett"
+          }
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "number": 52,
+      "name": "Meowth",
+      "hp": 40,
+      "cp": 715,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/052.png?raw=true",
+      "types": ["Normal"],
+      "height": "0.41 m",
+      "weight": "4.2 kg",
+      "candy": {
+        "name": "Meowth Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.86,
+        "average": 86,
+        "time": "02:54"
+      },
+      "multipliers": [1.98],
+      "weaknesses": ["Fighting"],
+      "evolution": {
+        "next": [
+          {
+            "number": 53,
+            "name": "Persian"
+          }
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "number": 53,
+      "name": "Persian",
+      "hp": 65,
+      "cp": 1500,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/053.png?raw=true",
+      "types": ["Normal"],
+      "height": "0.99 m",
+      "weight": "32.0 kg",
+      "candy": {
+        "name": "Meowth Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.022,
+        "average": 2.2,
+        "time": "02:44"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fighting"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 52,
+            "name": "Meowth"
+          }
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "number": 54,
+      "name": "Psyduck",
+      "hp": 50,
+      "cp": 1080,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/054.png?raw=true",
+      "types": ["Water"],
+      "height": "0.79 m",
+      "weight": "19.6 kg",
+      "candy": {
+        "name": "Psyduck Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 2.54,
+        "average": 254,
+        "time": "03:41"
+      },
+      "multipliers": [2.27],
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "next": [
+          {
+            "number": 55,
+            "name": "Golduck"
+          }
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "number": 55,
+      "name": "Golduck",
+      "hp": 80,
+      "cp": 2050,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/055.png?raw=true",
+      "types": ["Water"],
+      "height": "1.70 m",
+      "weight": "76.6 kg",
+      "candy": {
+        "name": "Psyduck Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.087,
+        "average": 8.7,
+        "time": "23:06"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 54,
+            "name": "Psyduck"
+          }
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "number": 56,
+      "name": "Mankey",
+      "hp": 40,
+      "cp": 1038,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/056.png?raw=true",
+      "types": ["Fighting"],
+      "height": "0.51 m",
+      "weight": "28.0 kg",
+      "candy": {
+        "name": "Mankey Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.92,
+        "average": 92,
+        "time": "12:52"
+      },
+      "multipliers": [2.17, 2.28],
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "evolution": {
+        "next": [
+          {
+            "number": 57,
+            "name": "Primeape"
+          }
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "number": 57,
+      "name": "Primeape",
+      "hp": 65,
+      "cp": 1860,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/057.png?raw=true",
+      "types": ["Fighting"],
+      "height": "0.99 m",
+      "weight": "32.0 kg",
+      "candy": {
+        "name": "Mankey Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.031,
+        "average": 3.1,
+        "time": "12:33"
+      },
+      "multipliers": null,
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 56,
+            "name": "Mankey"
+          }
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "number": 58,
+      "name": "Growlithe",
+      "hp": 55,
+      "cp": 1150,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/058.png?raw=true",
+      "types": ["Fire"],
+      "height": "0.71 m",
+      "weight": "19.0 kg",
+      "candy": {
+        "name": "Growlithe Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.92,
+        "average": 92,
+        "time": "03:57"
+      },
+      "multipliers": [2.31, 2.36],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "evolution": {
+        "next": [
+          {
+            "number": 59,
+            "name": "Arcanine"
+          }
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "number": 59,
+      "name": "Arcanine",
+      "hp": 90,
+      "cp": 2830,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/059.png?raw=true",
+      "types": ["Fire"],
+      "height": "1.91 m",
+      "weight": "155.0 kg",
+      "candy": {
+        "name": "Growlithe Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.017,
+        "average": 1.7,
+        "time": "03:11"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 58,
+            "name": "Growlithe"
+          }
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "number": 60,
+      "name": "Poliwag",
+      "hp": 40,
+      "cp": 795,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/060.png?raw=true",
+      "types": ["Water"],
+      "height": "0.61 m",
+      "weight": "12.4 kg",
+      "candy": {
+        "name": "Poliwag Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 2.19,
+        "average": 219,
+        "time": "03:40"
+      },
+      "multipliers": [1.72, 1.73],
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "next": [
+          {
+            "number": 61,
+            "name": "Poliwhirl"
+          },
+          {
+            "number": 62,
+            "name": "Poliwrath"
+          }
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "number": 61,
+      "name": "Poliwhirl",
+      "hp": 65,
+      "cp": 1410,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/061.png?raw=true",
+      "types": ["Water"],
+      "height": "0.99 m",
+      "weight": "20.0 kg",
+      "candy": {
+        "name": "Poliwag Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.13,
+        "average": 13,
+        "time": "09:14"
+      },
+      "multipliers": [1.95],
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 60,
+            "name": "Poliwag"
+          }
+        ],
+        "next": [
+          {
+            "number": 62,
+            "name": "Poliwrath"
+          }
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "number": 62,
+      "name": "Poliwrath",
+      "hp": 90,
+      "cp": 2450,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/062.png?raw=true",
+      "types": ["Water", "Fighting"],
+      "height": "1.30 m",
+      "weight": "54.0 kg",
+      "candy": {
+        "name": "Poliwag Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.011,
+        "average": 1.1,
+        "time": "01:32"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass", "Flying", "Psychic", "Fairy"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 60,
+            "name": "Poliwag"
+          },
+          {
+            "number": 61,
+            "name": "Poliwhirl"
+          }
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "number": 63,
+      "name": "Abra",
+      "hp": 25,
+      "cp": 1198,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/063.png?raw=true",
+      "types": ["Psychic"],
+      "height": "0.89 m",
+      "weight": "19.5 kg",
+      "candy": {
+        "name": "Abra Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 0.42,
+        "average": 42,
+        "time": "04:30"
+      },
+      "multipliers": [1.36, 1.95],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "evolution": {
+        "next": [
+          {
+            "number": 64,
+            "name": "Kadabra"
+          },
+          {
+            "number": 65,
+            "name": "Alakazam"
+          }
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "number": 64,
+      "name": "Kadabra",
+      "hp": 40,
+      "cp": 1660,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/064.png?raw=true",
+      "types": ["Psychic"],
+      "height": "1.30 m",
+      "weight": "56.5 kg",
+      "candy": {
+        "name": "Abra Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.027,
+        "average": 2.7,
+        "time": "11:25"
+      },
+      "multipliers": [1.4],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 63,
+            "name": "Abra"
+          }
+        ],
+        "next": [
+          {
+            "number": 65,
+            "name": "Alakazam"
+          }
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "number": 65,
+      "name": "Alakazam",
+      "hp": 55,
+      "cp": 2887,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/065.png?raw=true",
+      "types": ["Psychic"],
+      "height": "1.50 m",
+      "weight": "48.0 kg",
+      "candy": {
+        "name": "Abra Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0073,
+        "average": 0.73,
+        "time": "12:33"
+      },
+      "multipliers": null,
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 63,
+            "name": "Abra"
+          },
+          {
+            "number": 64,
+            "name": "Kadabra"
+          }
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "number": 66,
+      "name": "Machop",
+      "hp": 70,
+      "cp": 1080,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/066.png?raw=true",
+      "types": ["Fighting"],
+      "height": "0.79 m",
+      "weight": "19.5 kg",
+      "candy": {
+        "name": "Machop Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 0.49,
+        "average": 49,
+        "time": "01:55"
+      },
+      "multipliers": [1.64, 1.65],
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "evolution": {
+        "next": [
+          {
+            "number": 67,
+            "name": "Machoke"
+          },
+          {
+            "number": 68,
+            "name": "Machamp"
+          }
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "number": 67,
+      "name": "Machoke",
+      "hp": 80,
+      "cp": 1790,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/067.png?raw=true",
+      "types": ["Fighting"],
+      "height": "1.50 m",
+      "weight": "70.5 kg",
+      "candy": {
+        "name": "Machop Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.034,
+        "average": 3.4,
+        "time": "10:32"
+      },
+      "multipliers": [1.7],
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 66,
+            "name": "Machop"
+          }
+        ],
+        "next": [
+          {
+            "number": 68,
+            "name": "Machamp"
+          }
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "number": 68,
+      "name": "Machamp",
+      "hp": 90,
+      "cp": 3050,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/068.png?raw=true",
+      "types": ["Fighting"],
+      "height": "1.60 m",
+      "weight": "130.0 kg",
+      "candy": {
+        "name": "Machop Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0068,
+        "average": 0.68,
+        "time": "02:55"
+      },
+      "multipliers": null,
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 66,
+            "name": "Machop"
+          },
+          {
+            "number": 67,
+            "name": "Machoke"
+          }
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "number": 69,
+      "name": "Bellsprout",
+      "hp": 50,
+      "cp": 1050,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/069.png?raw=true",
+      "types": ["Grass", "Poison"],
+      "height": "0.71 m",
+      "weight": "4.0 kg",
+      "candy": {
+        "name": "Bellsprout Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 1.15,
+        "average": 115,
+        "time": "04:10"
+      },
+      "multipliers": [1.57],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "evolution": {
+        "next": [
+          {
+            "number": 70,
+            "name": "Weepinbell"
+          },
+          {
+            "number": 71,
+            "name": "Victreebel"
+          }
+        ]
+      }
+    },
+    {
+      "id": 70,
+      "number": 70,
+      "name": "Weepinbell",
+      "hp": 65,
+      "cp": 1530,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/070.png?raw=true",
+      "types": ["Grass", "Poison"],
+      "height": "0.99 m",
+      "weight": "6.4 kg",
+      "candy": {
+        "name": "Bellsprout Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.072,
+        "average": 7.2,
+        "time": "09:45"
+      },
+      "multipliers": [1.59],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 69,
+            "name": "Bellsprout"
+          }
+        ],
+        "next": [
+          {
+            "number": 71,
+            "name": "Victreebel"
+          }
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "number": 71,
+      "name": "Victreebel",
+      "hp": 80,
+      "cp": 2390,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/071.png?raw=true",
+      "types": ["Grass", "Poison"],
+      "height": "1.70 m",
+      "weight": "15.5 kg",
+      "candy": {
+        "name": "Bellsprout Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0059,
+        "average": 0.59,
+        "time": "12:19"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 69,
+            "name": "Bellsprout"
+          },
+          {
+            "number": 70,
+            "name": "Weepinbell"
+          }
+        ]
+      }
+    },
+    {
+      "id": 72,
+      "number": 72,
+      "name": "Tentacool",
+      "hp": 40,
+      "cp": 955,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/072.png?raw=true",
+      "types": ["Water", "Poison"],
+      "height": "0.89 m",
+      "weight": "45.5 kg",
+      "candy": {
+        "name": "Tentacool Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.81,
+        "average": 81,
+        "time": "03:20"
+      },
+      "multipliers": [2.52],
+      "weaknesses": ["Electric", "Ground", "Psychic"],
+      "evolution": {
+        "next": [
+          {
+            "number": 73,
+            "name": "Tentacruel"
+          }
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "number": 73,
+      "name": "Tentacruel",
+      "hp": 80,
+      "cp": 2360,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/073.png?raw=true",
+      "types": ["Water", "Poison"],
+      "height": "1.60 m",
+      "weight": "55.0 kg",
+      "candy": {
+        "name": "Tentacool Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.082,
+        "average": 8.2,
+        "time": "23:36"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Ground", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 72,
+            "name": "Tentacool"
+          }
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "number": 74,
+      "name": "Geodude",
+      "hp": 40,
+      "cp": 1015,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/074.png?raw=true",
+      "types": ["Rock", "Ground"],
+      "height": "0.41 m",
+      "weight": "20.0 kg",
+      "candy": {
+        "name": "Geodude Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 1.19,
+        "average": 119,
+        "time": "12:40"
+      },
+      "multipliers": [1.75, 1.76],
+      "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      "evolution": {
+        "next": [
+          {
+            "number": 75,
+            "name": "Graveler"
+          },
+          {
+            "number": 76,
+            "name": "Golem"
+          }
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "number": 75,
+      "name": "Graveler",
+      "hp": 55,
+      "cp": 1610,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/075.png?raw=true",
+      "types": ["Rock", "Ground"],
+      "height": "0.99 m",
+      "weight": "105.0 kg",
+      "candy": {
+        "name": "Geodude Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.071,
+        "average": 7.1,
+        "time": "04:53"
+      },
+      "multipliers": [1.64, 1.72],
+      "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 74,
+            "name": "Geodude"
+          }
+        ],
+        "next": [
+          {
+            "number": 76,
+            "name": "Golem"
+          }
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "number": 76,
+      "name": "Golem",
+      "hp": 80,
+      "cp": 2910,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/076.png?raw=true",
+      "types": ["Rock", "Ground"],
+      "height": "1.40 m",
+      "weight": "300.0 kg",
+      "candy": {
+        "name": "Geodude Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0047,
+        "average": 0.47,
+        "time": "12:16"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 74,
+            "name": "Geodude"
+          },
+          {
+            "number": 75,
+            "name": "Graveler"
+          }
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "number": 77,
+      "name": "Ponyta",
+      "hp": 50,
+      "cp": 1590,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/077.png?raw=true",
+      "types": ["Fire"],
+      "height": "0.99 m",
+      "weight": "30.0 kg",
+      "candy": {
+        "name": "Ponyta Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.51,
+        "average": 51,
+        "time": "02:50"
+      },
+      "multipliers": [1.48, 1.5],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "evolution": {
+        "next": [
+          {
+            "number": 78,
+            "name": "Rapidash"
+          }
+        ]
+      }
+    },
+    {
+      "id": 78,
+      "number": 78,
+      "name": "Rapidash",
+      "hp": 65,
+      "cp": 2300,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/078.png?raw=true",
+      "types": ["Fire"],
+      "height": "1.70 m",
+      "weight": "95.0 kg",
+      "candy": {
+        "name": "Ponyta Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.011,
+        "average": 1.1,
+        "time": "04:00"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 77,
+            "name": "Ponyta"
+          }
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "number": 79,
+      "name": "Slowpoke",
+      "hp": 90,
+      "cp": 1197,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/079.png?raw=true",
+      "types": ["Water", "Psychic"],
+      "height": "1.19 m",
+      "weight": "36.0 kg",
+      "candy": {
+        "name": "Slowpoke Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 1.05,
+        "average": 105,
+        "time": "07:12"
+      },
+      "multipliers": [2.21],
+      "weaknesses": ["Electric", "Grass", "Bug", "Ghost", "Dark"],
+      "evolution": {
+        "next": [
+          {
+            "number": 80,
+            "name": "Slowbro"
+          }
+        ]
+      }
+    },
+    {
+      "id": 80,
+      "number": 80,
+      "name": "Slowbro",
+      "hp": 95,
+      "cp": 2230,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/080.png?raw=true",
+      "types": ["Water", "Psychic"],
+      "height": "1.60 m",
+      "weight": "78.5 kg",
+      "candy": {
+        "name": "Slowpoke Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.036,
+        "average": 3.6,
+        "time": "02:56"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass", "Bug", "Ghost", "Dark"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 79,
+            "name": "Slowpoke"
+          }
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "number": 81,
+      "name": "Magnemite",
+      "hp": 25,
+      "cp": 1065,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/081.png?raw=true",
+      "types": ["Electric"],
+      "height": "0.30 m",
+      "weight": "6.0 kg",
+      "candy": {
+        "name": "Magnemite Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.71,
+        "average": 71,
+        "time": "04:04"
+      },
+      "multipliers": [2.16, 2.17],
+      "weaknesses": ["Fire", "Water", "Ground"],
+      "evolution": {
+        "next": [
+          {
+            "number": 82,
+            "name": "Magneton"
+          }
+        ]
+      }
+    },
+    {
+      "id": 82,
+      "number": 82,
+      "name": "Magneton",
+      "hp": 50,
+      "cp": 2050,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/082.png?raw=true",
+      "types": ["Electric"],
+      "height": "0.99 m",
+      "weight": "60.0 kg",
+      "candy": {
+        "name": "Magnemite Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.023,
+        "average": 2.3,
+        "time": "15:25"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Water", "Ground"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 81,
+            "name": "Magnemite"
+          }
+        ]
+      }
+    },
+    {
+      "id": 83,
+      "number": 83,
+      "name": "Farfetch'd",
+      "hp": 52,
+      "cp": 1220,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/083.png?raw=true",
+      "types": ["Normal", "Flying"],
+      "height": "0.79 m",
+      "weight": "15.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0212,
+        "average": 2.12,
+        "time": "01:09"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Rock"],
+      "evolution": null
+    },
+    {
+      "id": 84,
+      "number": 84,
+      "name": "Doduo",
+      "hp": 35,
+      "cp": 1020,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/084.png?raw=true",
+      "types": ["Normal", "Flying"],
+      "height": "1.40 m",
+      "weight": "39.2 kg",
+      "candy": {
+        "name": "Doduo Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.52,
+        "average": 52,
+        "time": "05:10"
+      },
+      "multipliers": [2.19, 2.24],
+      "weaknesses": ["Electric", "Rock"],
+      "evolution": {
+        "next": [
+          {
+            "number": 85,
+            "name": "Dodrio"
+          }
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "number": 85,
+      "name": "Dodrio",
+      "hp": 60,
+      "cp": 1890,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/085.png?raw=true",
+      "types": ["Normal", "Flying"],
+      "height": "1.80 m",
+      "weight": "85.2 kg",
+      "candy": {
+        "name": "Doduo Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.22,
+        "average": 22,
+        "time": "02:12"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 84,
+            "name": "Doduo"
+          }
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "number": 86,
+      "name": "Seel",
+      "hp": 65,
+      "cp": 1035,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/086.png?raw=true",
+      "types": ["Water"],
+      "height": "1.09 m",
+      "weight": "90.0 kg",
+      "candy": {
+        "name": "Seel Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.28,
+        "average": 28,
+        "time": "06:46"
+      },
+      "multipliers": [1.04, 1.96],
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "next": [
+          {
+            "number": 87,
+            "name": "Dewgong"
+          }
+        ]
+      }
+    },
+    {
+      "id": 87,
+      "number": 87,
+      "name": "Dewgong",
+      "hp": 90,
+      "cp": 1930,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/087.png?raw=true",
+      "types": ["Water", "Ice"],
+      "height": "1.70 m",
+      "weight": "120.0 kg",
+      "candy": {
+        "name": "Seel Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.013,
+        "average": 1.3,
+        "time": "06:04"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass", "Fighting", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 86,
+            "name": "Seel"
+          }
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "number": 88,
+      "name": "Grimer",
+      "hp": 80,
+      "cp": 1210,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/088.png?raw=true",
+      "types": ["Poison"],
+      "height": "0.89 m",
+      "weight": "30.0 kg",
+      "candy": {
+        "name": "Grimer Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.052,
+        "average": 5.2,
+        "time": "15:11"
+      },
+      "multipliers": [2.44],
+      "weaknesses": ["Ground", "Psychic"],
+      "evolution": {
+        "next": [
+          {
+            "number": 89,
+            "name": "Muk"
+          }
+        ]
+      }
+    },
+    {
+      "id": 89,
+      "number": 89,
+      "name": "Muk",
+      "hp": 105,
+      "cp": 2470,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/089.png?raw=true",
+      "types": ["Poison"],
+      "height": "1.19 m",
+      "weight": "30.0 kg",
+      "candy": {
+        "name": "Grimer Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0031,
+        "average": 0.31,
+        "time": "01:28"
+      },
+      "multipliers": null,
+      "weaknesses": ["Ground", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 88,
+            "name": "Grimer"
+          }
+        ]
+      }
+    },
+    {
+      "id": 90,
+      "number": 90,
+      "name": "Shellder",
+      "hp": 30,
+      "cp": 990,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/090.png?raw=true",
+      "types": ["Water"],
+      "height": "0.30 m",
+      "weight": "4.0 kg",
+      "candy": {
+        "name": "Shellder Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.52,
+        "average": 52,
+        "time": "07:39"
+      },
+      "multipliers": [2.65],
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "next": [
+          {
+            "number": 91,
+            "name": "Cloyster"
+          }
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "number": 91,
+      "name": "Cloyster",
+      "hp": 50,
+      "cp": 2200,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/091.png?raw=true",
+      "types": ["Water", "Ice"],
+      "height": "1.50 m",
+      "weight": "132.5 kg",
+      "candy": {
+        "name": "Shellder Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.015,
+        "average": 1.5,
+        "time": "02:33"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass", "Fighting", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 90,
+            "name": "Shellder"
+          }
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "number": 92,
+      "name": "Gastly",
+      "hp": 30,
+      "cp": 1080,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/092.png?raw=true",
+      "types": ["Ghost", "Poison"],
+      "height": "1.30 m",
+      "weight": "0.1 kg",
+      "candy": {
+        "name": "Gastly Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 0.79,
+        "average": 79,
+        "time": "04:21"
+      },
+      "multipliers": [1.78],
+      "weaknesses": ["Ground", "Psychic", "Ghost", "Dark"],
+      "evolution": {
+        "next": [
+          {
+            "number": 93,
+            "name": "Haunter"
+          },
+          {
+            "number": 94,
+            "name": "Gengar"
+          }
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "number": 93,
+      "name": "Haunter",
+      "hp": 45,
+      "cp": 1780,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/093.png?raw=true",
+      "types": ["Ghost", "Poison"],
+      "height": "1.60 m",
+      "weight": "0.1 kg",
+      "candy": {
+        "name": "Gastly Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.052,
+        "average": 5.2,
+        "time": "00:10"
+      },
+      "multipliers": [1.56, 1.8],
+      "weaknesses": ["Ground", "Psychic", "Ghost", "Dark"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 92,
+            "name": "Gastly"
+          }
+        ],
+        "next": [
+          {
+            "number": 94,
+            "name": "Gengar"
+          }
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "number": 94,
+      "name": "Gengar",
+      "hp": 60,
+      "cp": 2610,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/094.png?raw=true",
+      "types": ["Ghost", "Poison"],
+      "height": "1.50 m",
+      "weight": "40.5 kg",
+      "candy": {
+        "name": "Gastly Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0067,
+        "average": 0.67,
+        "time": "03:55"
+      },
+      "multipliers": null,
+      "weaknesses": ["Ground", "Psychic", "Ghost", "Dark"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 92,
+            "name": "Gastly"
+          },
+          {
+            "number": 93,
+            "name": "Haunter"
+          }
+        ]
+      }
+    },
+    {
+      "id": 95,
+      "number": 95,
+      "name": "Onix",
+      "hp": 35,
+      "cp": 1130,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/095.png?raw=true",
+      "types": ["Rock", "Ground"],
+      "height": "8.79 m",
+      "weight": "210.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.1,
+        "average": 10,
+        "time": "01:18"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      "evolution": null
+    },
+    {
+      "id": 96,
+      "number": 96,
+      "name": "Drowzee",
+      "hp": 60,
+      "cp": 1045,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/096.png?raw=true",
+      "types": ["Psychic"],
+      "height": "0.99 m",
+      "weight": "32.4 kg",
+      "candy": {
+        "name": "Drowzee Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 3.21,
+        "average": 321,
+        "time": "01:51"
+      },
+      "multipliers": [2.08, 2.09],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "evolution": {
+        "next": [
+          {
+            "number": 97,
+            "name": "Hypno"
+          }
+        ]
+      }
+    },
+    {
+      "id": 97,
+      "number": 97,
+      "name": "Hypno",
+      "hp": 85,
+      "cp": 2040,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/097.png?raw=true",
+      "types": ["Psychic"],
+      "height": "1.60 m",
+      "weight": "75.6 kg",
+      "candy": {
+        "name": "Drowzee Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.1,
+        "average": 10,
+        "time": "02:17"
+      },
+      "multipliers": null,
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 96,
+            "name": "Drowzee"
+          }
+        ]
+      }
+    },
+    {
+      "id": 98,
+      "number": 98,
+      "name": "Krabby",
+      "hp": 30,
+      "cp": 1150,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/098.png?raw=true",
+      "types": ["Water"],
+      "height": "0.41 m",
+      "weight": "6.5 kg",
+      "candy": {
+        "name": "Krabby Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 2.12,
+        "average": 212,
+        "time": "03:33"
+      },
+      "multipliers": [2.36, 2.4],
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "next": [
+          {
+            "number": 99,
+            "name": "Kingler"
+          }
+        ]
+      }
+    },
+    {
+      "id": 99,
+      "number": 99,
+      "name": "Kingler",
+      "hp": 55,
+      "cp": 2320,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/099.png?raw=true",
+      "types": ["Water"],
+      "height": "1.30 m",
+      "weight": "60.0 kg",
+      "candy": {
+        "name": "Krabby Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.062,
+        "average": 6.2,
+        "time": "03:44"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 98,
+            "name": "Krabby"
+          }
+        ]
+      }
+    },
+    {
+      "id": 100,
+      "number": 100,
+      "name": "Voltorb",
+      "hp": 40,
+      "cp": 1000,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/100.png?raw=true",
+      "types": ["Electric"],
+      "height": "0.51 m",
+      "weight": "10.4 kg",
+      "candy": {
+        "name": "Voltorb Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.65,
+        "average": 65,
+        "time": "04:36"
+      },
+      "multipliers": [2.01, 2.02],
+      "weaknesses": ["Ground"],
+      "evolution": {
+        "next": [
+          {
+            "number": 101,
+            "name": "Electrode"
+          }
+        ]
+      }
+    },
+    {
+      "id": 101,
+      "number": 101,
+      "name": "Electrode",
+      "hp": 60,
+      "cp": 1780,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/101.png?raw=true",
+      "types": ["Electric"],
+      "height": "1.19 m",
+      "weight": "66.6 kg",
+      "candy": {
+        "name": "Voltorb Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.02,
+        "average": 2,
+        "time": "04:10"
+      },
+      "multipliers": null,
+      "weaknesses": ["Ground"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 100,
+            "name": "Voltorb"
+          }
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "number": 102,
+      "name": "Exeggcute",
+      "hp": 60,
+      "cp": 1175,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/102.png?raw=true",
+      "types": ["Grass", "Psychic"],
+      "height": "0.41 m",
+      "weight": "2.5 kg",
+      "candy": {
+        "name": "Exeggcute Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.78,
+        "average": 78,
+        "time": "09:09"
+      },
+      "multipliers": [2.7, 3.18],
+      "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug", "Ghost", "Dark"],
+      "evolution": {
+        "next": [
+          {
+            "number": 103,
+            "name": "Exeggutor"
+          }
+        ]
+      }
+    },
+    {
+      "id": 103,
+      "number": 103,
+      "name": "Exeggutor",
+      "hp": 95,
+      "cp": 2910,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/103.png?raw=true",
+      "types": ["Grass", "Psychic"],
+      "height": "2.01 m",
+      "weight": "120.0 kg",
+      "candy": {
+        "name": "Exeggcute Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.014,
+        "average": 1.4,
+        "time": "12:34"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug", "Ghost", "Dark"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 102,
+            "name": "Exeggcute"
+          }
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "number": 104,
+      "name": "Cubone",
+      "hp": 50,
+      "cp": 920,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/104.png?raw=true",
+      "types": ["Ground"],
+      "height": "0.41 m",
+      "weight": "6.5 kg",
+      "candy": {
+        "name": "Cubone Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.61,
+        "average": 61,
+        "time": "01:51"
+      },
+      "multipliers": [1.67],
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "evolution": {
+        "next": [
+          {
+            "number": 105,
+            "name": "Marowak"
+          }
+        ]
+      }
+    },
+    {
+      "id": 105,
+      "number": 105,
+      "name": "Marowak",
+      "hp": 60,
+      "cp": 1620,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/105.png?raw=true",
+      "types": ["Ground"],
+      "height": "0.99 m",
+      "weight": "45.0 kg",
+      "candy": {
+        "name": "Cubone Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.02,
+        "average": 2,
+        "time": "03:59"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 104,
+            "name": "Cubone"
+          }
+        ]
+      }
+    },
+    {
+      "id": 106,
+      "number": 106,
+      "name": "Hitmonlee",
+      "hp": 50,
+      "cp": 2005,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/106.png?raw=true",
+      "types": ["Fighting"],
+      "height": "1.50 m",
+      "weight": "49.8 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.02,
+        "average": 2,
+        "time": "03:59"
+      },
+      "multipliers": null,
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "evolution": null
+    },
+    {
+      "id": 107,
+      "number": 107,
+      "name": "Hitmonchan",
+      "hp": 50,
+      "cp": 1940,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/107.png?raw=true",
+      "types": ["Fighting"],
+      "height": "1.40 m",
+      "weight": "50.2 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.022,
+        "average": 2.2,
+        "time": "05:58"
+      },
+      "multipliers": null,
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "evolution": null
+    },
+    {
+      "id": 108,
+      "number": 108,
+      "name": "Lickitung",
+      "hp": 90,
+      "cp": 1330,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/108.png?raw=true",
+      "types": ["Normal"],
+      "height": "1.19 m",
+      "weight": "65.5 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.011,
+        "average": 1.1,
+        "time": "02:46"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fighting"],
+      "evolution": null
+    },
+    {
+      "id": 109,
+      "number": 109,
+      "name": "Koffing",
+      "hp": 40,
+      "cp": 1185,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/109.png?raw=true",
+      "types": ["Poison"],
+      "height": "0.61 m",
+      "weight": "1.0 kg",
+      "candy": {
+        "name": "Koffing Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.2,
+        "average": 20,
+        "time": "08:16"
+      },
+      "multipliers": [1.11],
+      "weaknesses": ["Ground", "Psychic"],
+      "evolution": {
+        "next": [
+          {
+            "number": 110,
+            "name": "Weezing"
+          }
+        ]
+      }
+    },
+    {
+      "id": 110,
+      "number": 110,
+      "name": "Weezing",
+      "hp": 65,
+      "cp": 2080,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/110.png?raw=true",
+      "types": ["Poison"],
+      "height": "1.19 m",
+      "weight": "9.5 kg",
+      "candy": {
+        "name": "Koffing Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.016,
+        "average": 1.6,
+        "time": "12:17"
+      },
+      "multipliers": null,
+      "weaknesses": ["Ground", "Psychic"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 109,
+            "name": "Koffing"
+          }
+        ]
+      }
+    },
+    {
+      "id": 111,
+      "number": 111,
+      "name": "Rhyhorn",
+      "hp": 80,
+      "cp": 1560,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/111.png?raw=true",
+      "types": ["Ground", "Rock"],
+      "height": "0.99 m",
+      "weight": "115.0 kg",
+      "candy": {
+        "name": "Rhyhorn Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.63,
+        "average": 63,
+        "time": "03:21"
+      },
+      "multipliers": [1.91],
+      "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      "evolution": {
+        "next": [
+          {
+            "number": 112,
+            "name": "Rhydon"
+          }
+        ]
+      }
+    },
+    {
+      "id": 112,
+      "number": 112,
+      "name": "Rhydon",
+      "hp": 105,
+      "cp": 2900,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/112.png?raw=true",
+      "types": ["Ground", "Rock"],
+      "height": "1.91 m",
+      "weight": "120.0 kg",
+      "candy": {
+        "name": "Rhyhorn Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.022,
+        "average": 2.2,
+        "time": "05:50"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 111,
+            "name": "Rhyhorn"
+          }
+        ]
+      }
+    },
+    {
+      "id": 113,
+      "number": 113,
+      "name": "Chansey",
+      "hp": 250,
+      "cp": 1220,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/113.png?raw=true",
+      "types": ["Normal"],
+      "height": "1.09 m",
+      "weight": "34.6 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.013,
+        "average": 1.3,
+        "time": "04:46"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fighting"],
+      "evolution": null
+    },
+    {
+      "id": 114,
+      "number": 114,
+      "name": "Tangela",
+      "hp": 65,
+      "cp": 1920,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/114.png?raw=true",
+      "types": ["Grass"],
+      "height": "0.99 m",
+      "weight": "35.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.228,
+        "average": 22.8,
+        "time": "23:13"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug"],
+      "evolution": null
+    },
+    {
+      "id": 115,
+      "number": 115,
+      "name": "Kangaskhan",
+      "hp": 105,
+      "cp": 1800,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/115.png?raw=true",
+      "types": ["Normal"],
+      "height": "2.21 m",
+      "weight": "80.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0086,
+        "average": 0.86,
+        "time": "02:40"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fighting"],
+      "evolution": null
+    },
+    {
+      "id": 116,
+      "number": 116,
+      "name": "Horsea",
+      "hp": 30,
+      "cp": 760,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/116.png?raw=true",
+      "types": ["Water"],
+      "height": "0.41 m",
+      "weight": "8.0 kg",
+      "candy": {
+        "name": "Horsea Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 1.13,
+        "average": 113,
+        "time": "02:53"
+      },
+      "multipliers": [2.23],
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "next": [
+          {
+            "number": 117,
+            "name": "Seadra"
+          }
+        ]
+      }
+    },
+    {
+      "id": 117,
+      "number": 117,
+      "name": "Seadra",
+      "hp": 55,
+      "cp": 1830,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/117.png?raw=true",
+      "types": ["Water"],
+      "height": "1.19 m",
+      "weight": "25.0 kg",
+      "candy": {
+        "name": "Horsea Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.034,
+        "average": 3.4,
+        "time": "03:18"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 116,
+            "name": "Horsea"
+          }
+        ]
+      }
+    },
+    {
+      "id": 118,
+      "number": 118,
+      "name": "Goldeen",
+      "hp": 45,
+      "cp": 1055,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/118.png?raw=true",
+      "types": ["Water"],
+      "height": "0.61 m",
+      "weight": "15.0 kg",
+      "candy": {
+        "name": "Goldeen Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 2.18,
+        "average": 218,
+        "time": "03:14"
+      },
+      "multipliers": [2.15, 2.2],
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "next": [
+          {
+            "number": 119,
+            "name": "Seaking"
+          }
+        ]
+      }
+    },
+    {
+      "id": 119,
+      "number": 119,
+      "name": "Seaking",
+      "hp": 80,
+      "cp": 1930,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/119.png?raw=true",
+      "types": ["Water"],
+      "height": "1.30 m",
+      "weight": "39.0 kg",
+      "candy": {
+        "name": "Goldeen Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.08,
+        "average": 8,
+        "time": "05:21"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 118,
+            "name": "Goldeen"
+          }
+        ]
+      }
+    },
+    {
+      "id": 120,
+      "number": 120,
+      "name": "Staryu",
+      "hp": 30,
+      "cp": 935,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/120.png?raw=true",
+      "types": ["Water"],
+      "height": "0.79 m",
+      "weight": "34.5 kg",
+      "candy": {
+        "name": "Staryu Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 1.95,
+        "average": 195,
+        "time": "22:59"
+      },
+      "multipliers": [2.38, 2.41],
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "next": [
+          {
+            "number": 121,
+            "name": "Starmie"
+          }
+        ]
+      }
+    },
+    {
+      "id": 121,
+      "number": 121,
+      "name": "Starmie",
+      "hp": 60,
+      "cp": 2310,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/121.png?raw=true",
+      "types": ["Water", "Psychic"],
+      "height": "1.09 m",
+      "weight": "80.0 kg",
+      "candy": {
+        "name": "Staryu Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.034,
+        "average": 3.4,
+        "time": "06:57"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass", "Bug", "Ghost", "Dark"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 120,
+            "name": "Staryu"
+          }
+        ]
+      }
+    },
+    {
+      "id": 122,
+      "number": 122,
+      "name": "Mr. Mime",
+      "hp": 40,
+      "cp": 1760,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/122.png?raw=true",
+      "types": ["Psychic"],
+      "height": "1.30 m",
+      "weight": "54.5 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0031,
+        "average": 0.31,
+        "time": "01:51"
+      },
+      "multipliers": null,
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "evolution": null
+    },
+    {
+      "id": 123,
+      "number": 123,
+      "name": "Scyther",
+      "hp": 70,
+      "cp": 2180,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/123.png?raw=true",
+      "types": ["Bug", "Flying"],
+      "height": "1.50 m",
+      "weight": "56.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.14,
+        "average": 14,
+        "time": "05:43"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Electric", "Ice", "Flying", "Rock"],
+      "evolution": null
+    },
+    {
+      "id": 124,
+      "number": 124,
+      "name": "Jynx",
+      "hp": 65,
+      "cp": 2250,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/124.png?raw=true",
+      "types": ["Ice", "Psychic"],
+      "height": "1.40 m",
+      "weight": "40.6 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.35,
+        "average": 35,
+        "time": "05:41"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Bug", "Rock", "Ghost", "Dark", "Steel"],
+      "evolution": null
+    },
+    {
+      "id": 125,
+      "number": 125,
+      "name": "Electabuzz",
+      "hp": 65,
+      "cp": 2080,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/125.png?raw=true",
+      "types": ["Electric"],
+      "height": "1.09 m",
+      "weight": "30.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.074,
+        "average": 7.4,
+        "time": "04:28"
+      },
+      "multipliers": null,
+      "weaknesses": ["Ground"],
+      "evolution": null
+    },
+    {
+      "id": 126,
+      "number": 126,
+      "name": "Magmar",
+      "hp": 65,
+      "cp": 2110,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/126.png?raw=true",
+      "types": ["Fire"],
+      "height": "1.30 m",
+      "weight": "44.5 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.1,
+        "average": 10,
+        "time": "20:36"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "evolution": null
+    },
+    {
+      "id": 127,
+      "number": 127,
+      "name": "Pinsir",
+      "hp": 65,
+      "cp": 2510,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/127.png?raw=true",
+      "types": ["Bug"],
+      "height": "1.50 m",
+      "weight": "55.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.99,
+        "average": 99,
+        "time": "03:25"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Flying", "Rock"],
+      "evolution": null
+    },
+    {
+      "id": 128,
+      "number": 128,
+      "name": "Tauros",
+      "hp": 75,
+      "cp": 2080,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/128.png?raw=true",
+      "types": ["Normal"],
+      "height": "1.40 m",
+      "weight": "88.4 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.12,
+        "average": 12,
+        "time": "00:37"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fighting"],
+      "evolution": null
+    },
+    {
+      "id": 129,
+      "number": 129,
+      "name": "Magikarp",
+      "hp": 20,
+      "cp": 215,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/129.png?raw=true",
+      "types": ["Water"],
+      "height": "0.89 m",
+      "weight": "10.0 kg",
+      "candy": {
+        "name": "Magikarp Candy",
+        "count": 400
+      },
+      "spawn": {
+        "chance": 4.78,
+        "average": 478,
+        "time": "14:26"
+      },
+      "multipliers": [10.1, 11.8],
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "next": [
+          {
+            "number": 130,
+            "name": "Gyarados"
+          }
+        ]
+      }
+    },
+    {
+      "id": 130,
+      "number": 130,
+      "name": "Gyarados",
+      "hp": 95,
+      "cp": 2910,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/130.png?raw=true",
+      "types": ["Water", "Flying"],
+      "height": "6.50 m",
+      "weight": "235.0 kg",
+      "candy": {
+        "name": "Magikarp Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0032,
+        "average": 0.32,
+        "time": "02:15"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 129,
+            "name": "Magikarp"
+          }
+        ]
+      }
+    },
+    {
+      "id": 131,
+      "number": 131,
+      "name": "Lapras",
+      "hp": 130,
+      "cp": 2600,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/131.png?raw=true",
+      "types": ["Water", "Ice"],
+      "height": "2.49 m",
+      "weight": "220.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.006,
+        "average": 0.6,
+        "time": "08:59"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass", "Fighting", "Rock"],
+      "evolution": null
+    },
+    {
+      "id": 132,
+      "number": 132,
+      "name": "Ditto",
+      "hp": 48,
+      "cp": 832,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/132.png?raw=true",
+      "types": ["Normal"],
+      "height": "0.30 m",
+      "weight": "4.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0,
+        "average": 0,
+        "time": "N/A"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fighting"],
+      "evolution": null
+    },
+    {
+      "id": 133,
+      "number": 133,
+      "name": "Eevee",
+      "hp": 55,
+      "cp": 886,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/133.png?raw=true",
+      "types": ["Normal"],
+      "height": "0.30 m",
+      "weight": "6.5 kg",
+      "candy": {
+        "name": "Eevee Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 2.75,
+        "average": 275,
+        "time": "05:32"
+      },
+      "multipliers": [2.02, 2.64],
+      "weaknesses": ["Fighting"],
+      "evolution": {
+        "next": [
+          {
+            "number": 134,
+            "name": "Vaporeon"
+          },
+          {
+            "number": 135,
+            "name": "Jolteon"
+          },
+          {
+            "number": 136,
+            "name": "Flareon"
+          }
+        ]
+      }
+    },
+    {
+      "id": 134,
+      "number": 134,
+      "name": "Vaporeon",
+      "hp": 130,
+      "cp": 2860,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/134.png?raw=true",
+      "types": ["Water"],
+      "height": "0.99 m",
+      "weight": "29.0 kg",
+      "candy": {
+        "name": "Eevee Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.014,
+        "average": 1.4,
+        "time": "10:54"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 133,
+            "name": "Eevee"
+          }
+        ]
+      }
+    },
+    {
+      "id": 135,
+      "number": 135,
+      "name": "Jolteon",
+      "hp": 65,
+      "cp": 2650,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/135.png?raw=true",
+      "types": ["Electric"],
+      "height": "0.79 m",
+      "weight": "24.5 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.012,
+        "average": 1.2,
+        "time": "02:30"
+      },
+      "multipliers": null,
+      "weaknesses": ["Ground"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 133,
+            "name": "Eevee"
+          }
+        ]
+      }
+    },
+    {
+      "id": 136,
+      "number": 136,
+      "name": "Flareon",
+      "hp": 65,
+      "cp": 2730,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/136.png?raw=true",
+      "types": ["Fire"],
+      "height": "0.89 m",
+      "weight": "25.0 kg",
+      "candy": {
+        "name": "Eevee Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.017,
+        "average": 1.7,
+        "time": "07:02"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 133,
+            "name": "Eevee"
+          }
+        ]
+      }
+    },
+    {
+      "id": 137,
+      "number": 137,
+      "name": "Porygon",
+      "hp": 65,
+      "cp": 1450,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/137.png?raw=true",
+      "types": ["Normal"],
+      "height": "0.79 m",
+      "weight": "36.5 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.012,
+        "average": 1.2,
+        "time": "02:49"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fighting"],
+      "evolution": null
+    },
+    {
+      "id": 138,
+      "number": 138,
+      "name": "Omanyte",
+      "hp": 35,
+      "cp": 1250,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/138.png?raw=true",
+      "types": ["Rock", "Water"],
+      "height": "0.41 m",
+      "weight": "7.5 kg",
+      "candy": {
+        "name": "Omanyte Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.14,
+        "average": 14,
+        "time": "10:23"
+      },
+      "multipliers": [2.12],
+      "weaknesses": ["Electric", "Grass", "Fighting", "Ground"],
+      "evolution": {
+        "next": [
+          {
+            "number": 139,
+            "name": "Omastar"
+          }
+        ]
+      }
+    },
+    {
+      "id": 139,
+      "number": 139,
+      "name": "Omastar",
+      "hp": 70,
+      "cp": 2250,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/139.png?raw=true",
+      "types": ["Rock", "Water"],
+      "height": "0.99 m",
+      "weight": "35.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0061,
+        "average": 0.61,
+        "time": "05:04"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass", "Fighting", "Ground"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 138,
+            "name": "Omanyte"
+          }
+        ]
+      }
+    },
+    {
+      "id": 140,
+      "number": 140,
+      "name": "Kabuto",
+      "hp": 30,
+      "cp": 1140,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/140.png?raw=true",
+      "types": ["Rock", "Water"],
+      "height": "0.51 m",
+      "weight": "11.5 kg",
+      "candy": {
+        "name": "Kabuto Candy",
+        "count": 50
+      },
+      "spawn": {
+        "chance": 0.1,
+        "average": 10,
+        "time": "00:05"
+      },
+      "multipliers": [1.97, 2.37],
+      "weaknesses": ["Electric", "Grass", "Fighting", "Ground"],
+      "evolution": {
+        "next": [
+          {
+            "number": 141,
+            "name": "Kabutops"
+          }
+        ]
+      }
+    },
+    {
+      "id": 141,
+      "number": 141,
+      "name": "Kabutops",
+      "hp": 60,
+      "cp": 2220,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/141.png?raw=true",
+      "types": ["Rock", "Water"],
+      "height": "1.30 m",
+      "weight": "40.5 kg",
+      "candy": {
+        "name": "Kabuto Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0032,
+        "average": 0.32,
+        "time": "23:40"
+      },
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass", "Fighting", "Ground"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 140,
+            "name": "Kabuto"
+          }
+        ]
+      }
+    },
+    {
+      "id": 142,
+      "number": 142,
+      "name": "Aerodactyl",
+      "hp": 80,
+      "cp": 2300,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/142.png?raw=true",
+      "types": ["Rock", "Flying"],
+      "height": "1.80 m",
+      "weight": "59.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.018,
+        "average": 1.8,
+        "time": "23:40"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Electric", "Ice", "Rock", "Steel"],
+      "evolution": null
+    },
+    {
+      "id": 143,
+      "number": 143,
+      "name": "Snorlax",
+      "hp": 160,
+      "cp": 2840,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/143.png?raw=true",
+      "types": ["Normal"],
+      "height": "2.11 m",
+      "weight": "460.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.016,
+        "average": 1.6,
+        "time": "23:40"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fighting"],
+      "evolution": null
+    },
+    {
+      "id": 144,
+      "number": 144,
+      "name": "Articuno",
+      "hp": 90,
+      "cp": 2690,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/144.png?raw=true",
+      "types": ["Ice", "Flying"],
+      "height": "1.70 m",
+      "weight": "55.4 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0,
+        "average": 0,
+        "time": "N/A"
+      },
+      "multipliers": null,
+      "weaknesses": ["Fire", "Electric", "Rock", "Steel"],
+      "evolution": null
+    },
+    {
+      "id": 145,
+      "number": 145,
+      "name": "Zapdos",
+      "hp": 90,
+      "cp": 2900,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/145.png?raw=true",
+      "types": ["Electric", "Flying"],
+      "height": "1.60 m",
+      "weight": "52.6 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0,
+        "average": 0,
+        "time": "N/A"
+      },
+      "multipliers": null,
+      "weaknesses": ["Ice", "Rock"],
+      "evolution": null
+    },
+    {
+      "id": 146,
+      "number": 146,
+      "name": "Moltres",
+      "hp": 90,
+      "cp": 2900,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/146.png?raw=true",
+      "types": ["Fire", "Flying"],
+      "height": "2.01 m",
+      "weight": "60.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0,
+        "average": 0,
+        "time": "N/A"
+      },
+      "multipliers": null,
+      "weaknesses": ["Water", "Electric", "Rock"],
+      "evolution": null
+    },
+    {
+      "id": 147,
+      "number": 147,
+      "name": "Dratini",
+      "hp": 41,
+      "cp": 775,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/147.png?raw=true",
+      "types": ["Dragon"],
+      "height": "1.80 m",
+      "weight": "3.3 kg",
+      "candy": {
+        "name": "Dratini Candy",
+        "count": 25
+      },
+      "spawn": {
+        "chance": 0.3,
+        "average": 30,
+        "time": "06:41"
+      },
+      "multipliers": [1.83, 1.84],
+      "weaknesses": ["Ice", "Dragon", "Fairy"],
+      "evolution": {
+        "next": [
+          {
+            "number": 148,
+            "name": "Dragonair"
+          },
+          {
+            "number": 149,
+            "name": "Dragonite"
+          }
+        ]
+      }
+    },
+    {
+      "id": 148,
+      "number": 148,
+      "name": "Dragonair",
+      "hp": 61,
+      "cp": 1570,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/148.png?raw=true",
+      "types": ["Dragon"],
+      "height": "3.99 m",
+      "weight": "16.5 kg",
+      "candy": {
+        "name": "Dratini Candy",
+        "count": 100
+      },
+      "spawn": {
+        "chance": 0.02,
+        "average": 2,
+        "time": "11:57"
+      },
+      "multipliers": [2.05],
+      "weaknesses": ["Ice", "Dragon", "Fairy"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 147,
+            "name": "Dratini"
+          }
+        ],
+        "next": [
+          {
+            "number": 149,
+            "name": "Dragonite"
+          }
+        ]
+      }
+    },
+    {
+      "id": 149,
+      "number": 149,
+      "name": "Dragonite",
+      "hp": 91,
+      "cp": 3450,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/149.png?raw=true",
+      "types": ["Dragon", "Flying"],
+      "height": "2.21 m",
+      "weight": "210.0 kg",
+      "candy": {
+        "name": "Dratini Candy",
+        "count": null
+      },
+      "spawn": {
+        "chance": 0.0011,
+        "average": 0.11,
+        "time": "23:38"
+      },
+      "multipliers": null,
+      "weaknesses": ["Ice", "Rock", "Dragon", "Fairy"],
+      "evolution": {
+        "prev": [
+          {
+            "number": 147,
+            "name": "Dratini"
+          },
+          {
+            "number": 148,
+            "name": "Dragonair"
+          }
+        ]
+      }
+    },
+    {
+      "id": 150,
+      "number": 150,
+      "name": "Mewtwo",
+      "hp": 106,
+      "cp": 3600,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/150.png?raw=true",
+      "types": ["Psychic"],
+      "height": "2.01 m",
+      "weight": "122.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0,
+        "average": 0,
+        "time": "N/A"
+      },
+      "multipliers": null,
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "evolution": null
+    },
+    {
+      "id": 151,
+      "number": 151,
+      "name": "Mew",
+      "hp": 100,
+      "cp": 3090,
+      "image": "https://github.com/mmhz23/pokemon-go/blob/main/images/151.png?raw=true",
+      "types": ["Psychic"],
+      "height": "0.41 m",
+      "weight": "4.0 kg",
+      "candy": {
+        "name": null,
+        "count": null
+      },
+      "spawn": {
+        "chance": 0,
+        "average": 0,
+        "time": "N/A"
+      },
+      "multipliers": null,
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "evolution": null
+    }
+  ]
+}

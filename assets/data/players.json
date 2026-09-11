@@ -1,0 +1,54 @@
+{
+  "players": [
+    {
+      "id": "1",
+      "name": "Amelie Cooper",
+      "email": "amelie.cooper@gmail.com",
+      "avatar": "assets/players/amelie.png",
+      "level": 28,
+      "wins": 156,
+      "pokemonCount": 45,
+      "favoritePokemon": "Pikachu"
+    },
+    {
+      "id": "2",
+      "name": "Annie Stanley",
+      "email": "annie.stanley@gmail.com",
+      "avatar": "assets/players/annie.png",
+      "level": 32,
+      "wins": 203,
+      "pokemonCount": 52,
+      "favoritePokemon": "Eevee"
+    },
+    {
+      "id": "3",
+      "name": "Josh Knight",
+      "email": "josh.knight@gmail.com",
+      "avatar": "assets/players/josh.png",
+      "level": 25,
+      "wins": 98,
+      "pokemonCount": 38,
+      "favoritePokemon": "Charizard"
+    },
+    {
+      "id": "4",
+      "name": "Laura Palmer",
+      "email": "laura.palmer@gmail.com",
+      "avatar": "assets/players/laura.png",
+      "level": 41,
+      "wins": 312,
+      "pokemonCount": 67,
+      "favoritePokemon": "Mewtwo"
+    },
+    {
+      "id": "5",
+      "name": "Rich Wilson",
+      "email": "rich.wilson@gmail.com",
+      "avatar": "assets/players/rich.png",
+      "level": 19,
+      "wins": 47,
+      "pokemonCount": 23,
+      "favoritePokemon": "Squirtle"
+    }
+  ]
+}

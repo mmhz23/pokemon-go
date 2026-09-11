@@ -66,7 +66,7 @@ function showLoadError() {
 // Loading Pokemon Data with $.ajax
 function loadDataWithAjax() {
   $.ajax({
-    url: "https://raw.githubusercontent.com/mmhz23/pokemon-go/refs/heads/main/assets/data/pokemon.json",
+    url: "https://raw.githubusercontent.com/mmhz23/pokemon-go/refs/heads/main/public/assets/data/pokemon.json",
     method: "GET",
     dataType: "json",
     headers: {
@@ -89,7 +89,7 @@ function loadDataWithAjax() {
 // Loading Pokemon Data with $.get
 function loadDataWithGet() {
   $.get(
-    "https://raw.githubusercontent.com/mmhz23/pokemon-go/refs/heads/main/assets/data/pokemon.json",
+    "https://raw.githubusercontent.com/mmhz23/pokemon-go/refs/heads/main/public/assets/data/pokemon.json",
   )
     .done(function (data) {
       pokemonData = data.pokemon;
@@ -106,7 +106,7 @@ function loadDataWithGet() {
 // Loading Pokemon Data with $.getJSON
 function loadDataWithGetJson() {
   $.getJSON(
-    "https://raw.githubusercontent.com/mmhz23/pokemon-go/refs/heads/main/assets/data/pokemon.json",
+    "https://raw.githubusercontent.com/mmhz23/pokemon-go/refs/heads/main/public/assets/data/pokemon.json",
   )
     .done(function (data) {
       pokemonData = data.pokemon;

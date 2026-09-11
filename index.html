@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script type="module" src="js/jquery.js"></script>
+    <script type="module" src="js/axios.js"></script>
+
+    <title>Pokemon Go</title>
+  </head>
+  <body
+    class="font-bubblegum-sans flex h-dvh flex-col items-center justify-center overflow-hidden bg-[url('/assets/images/bg.png')] bg-cover bg-center text-neutral-50 transform-3d"
+  >
+    <div
+      id="pokemon-card"
+      class="flex w-96 flex-col gap-6 rounded-4xl border border-neutral-50/25 bg-neutral-100/15 p-6 shadow-2xl backdrop-blur-md transition-all duration-300"
+    >
+      <span
+        class="absolute z-10 grid size-11 place-items-center rounded-full border border-neutral-50/25 bg-neutral-100/25 text-sm"
+      >
+        001
+      </span>
+
+      <div class="relative size-84">
+        <img
+          id="pokemon-image"
+          src="assets/images/pokemon/001.png"
+          alt="Bulbasaur"
+          class="transition-all duration-300"
+        />
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <div class="flex flex-wrap items-center justify-between gap-1">
+          <h2
+            class="mb-1 flex items-center gap-2 text-2xl font-bold tracking-wider"
+          >
+            <img src="assets/icons/pokemon.svg" alt="" class="size-7" />
+            <span>Bulbasaur</span>
+          </h2>
+
+          <ul class="flex flex-wrap items-center gap-2">
+            <li
+              class="bg-grass/50 border-grass rounded-full border px-2.5 py-0.5 pb-px text-sm uppercase"
+            >
+              Grass
+            </li>
+            <li
+              class="bg-poison/50 border-poison rounded-full border px-2.5 py-0.5 pb-px text-sm uppercase"
+            >
+              Poison
+            </li>
+          </ul>
+
+          <div class="flex w-full items-center gap-1.5 text-neutral-200">
+            <img src="assets/icons/flash.svg" alt="" class="size-5" />
+            <span>Bulbasaur Candy</span>
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-2 overflow-hidden rounded-2xl border border-neutral-50/25 bg-neutral-100/25"
+        >
+          <div
+            class="flex items-center gap-1.5 border-r border-b border-neutral-50/25 p-2 pl-4"
+          >
+            <img src="assets/icons/heart.svg" alt="" class="size-5" />
+            <span class="mr-1.5">HP</span>
+            <span class="text-sm">45</span>
+          </div>
+
+          <div
+            class="flex items-center gap-1.5 border-r border-b border-transparent border-b-neutral-50/25 p-2 pl-4"
+          >
+            <img src="assets/icons/hammer.svg" alt="" class="size-5" />
+            <span class="mr-1.5">CP</span>
+            <span class="text-sm">1115</span>
+          </div>
+
+          <div
+            class="flex items-center gap-1.5 border-r border-b border-transparent border-r-neutral-50/25 p-2 pl-4"
+          >
+            <img src="assets/icons/ruler.svg" alt="" class="size-5" />
+            <span class="mr-1.5">Height</span>
+            <span class="text-sm">0.71 m</span>
+          </div>
+
+          <div
+            class="flex items-center gap-1.5 border-r border-b border-transparent p-2 pl-4"
+          >
+            <img src="assets/icons/weight.svg" alt="" class="size-5" />
+            <span class="mr-1.5">Weight</span>
+            <span class="text-sm">6.9 kg</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-2">
+          <div class="flex items-center gap-1.5 text-neutral-200">
+            <img src="assets/icons/danger.svg" alt="" class="size-5" />
+            <span>Weaknesses</span>
+          </div>
+
+          <ul class="flex flex-wrap items-center gap-2">
+            <li
+              class="bg-fire/50 border-fire rounded-full border px-2.5 py-0.5 pb-px text-sm uppercase"
+            >
+              Fire
+            </li>
+            <li
+              class="bg-ice/50 border-ice rounded-full border px-2.5 py-0.5 pb-px text-sm uppercase"
+            >
+              Ice
+            </li>
+            <li
+              class="bg-flying/50 border-flying rounded-full border px-2.5 py-0.5 pb-px text-sm uppercase"
+            >
+              Flying
+            </li>
+            <li
+              class="bg-psychic/50 border-psychic rounded-full border px-2.5 py-0.5 pb-px text-sm uppercase"
+            >
+              Psychic
+            </li>
+          </ul>
+        </div>
+
+        <div class="mt-2 grid grid-cols-2 items-center gap-3">
+          <button
+            type="button"
+            id="previous-evolution-button"
+            disabled
+            class="flex cursor-pointer items-center justify-center gap-1 rounded-full border border-neutral-50/25 bg-neutral-100/25 p-2 text-sm transition-all duration-300 hover:bg-neutral-100/35 focus:bg-neutral-100/35 focus:outline-none disabled:cursor-not-allowed disabled:opacity-70"
+          >
+            <img src="assets/icons/arrow-left.svg" alt="" class="size-5" />
+            <span>Previous Evolution</span>
+          </button>
+
+          <button
+            type="button"
+            id="next-evolution-button"
+            class="flex cursor-pointer items-center justify-center gap-1 rounded-full border border-neutral-50/25 bg-neutral-100/25 p-2 text-sm transition-all duration-300 hover:bg-neutral-100/35 focus:bg-neutral-100/35 focus:outline-none disabled:cursor-not-allowed disabled:opacity-70"
+          >
+            <span>Next Evolution</span>
+            <img src="assets/icons/arrow-right.svg" alt="" class="size-5" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <form class="absolute top-10 left-10 flex items-center">
+      <button
+        type="button"
+        id="search-button"
+        class="flex cursor-pointer items-center gap-2 rounded-l-full border border-neutral-50/25 bg-neutral-100/25 px-6 py-3 text-sm text-neutral-200 backdrop-blur-md transition-all duration-300 hover:bg-neutral-100/35 focus:bg-neutral-100/35 focus:outline-none"
+      >
+        <img src="assets/icons/search.svg" alt="" class="-mt-0.5 size-5" />
+        <span>Search</span>
+      </button>
+
+      <label for="search-input" class="sr-only">
+        Search Pokemon by name or number
+      </label>
+      <input
+        type="text"
+        name="search"
+        id="search-input"
+        placeholder="Search Pokemon by name or number"
+        class="w-80 rounded-r-full border border-l-0 border-neutral-50/25 bg-neutral-100/15 px-6 py-3 text-sm text-neutral-200 backdrop-blur-md transition-all duration-300 focus:bg-neutral-100/25 focus:outline-none"
+      />
+    </form>
+
+    <div class="absolute top-10 right-10 flex items-center gap-4">
+      <button
+        type="button"
+        id="add-player-button"
+        class="flex cursor-pointer items-center gap-2 rounded-full border border-neutral-50/25 bg-neutral-100/25 px-6 py-3 text-sm text-neutral-200 backdrop-blur-md transition-all duration-300 hover:bg-neutral-100/35 focus:bg-neutral-100/35 focus:outline-none"
+      >
+        <img src="assets/icons/add.svg" alt="" class="size-5" />
+        <span>Add Player</span>
+      </button>
+
+      <figure
+        class="flex items-center gap-2 rounded-full border border-neutral-50/25 bg-neutral-100/25 p-1 pr-3 backdrop-blur-md"
+      >
+        <img
+          src="assets/images/players/annie.png"
+          alt="Annie Stanley"
+          class="size-9 rounded-full"
+        />
+        <figcaption class="text-sm text-neutral-200">Annie Stanley</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>

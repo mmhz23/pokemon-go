@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-bubblegum-sans: "Bubblegum Sans", sans-serif;
+
+  --color-bug: #92bc2c;
+  --color-dark: #6e7587;
+  --color-dragon: #0c69c8;
+  --color-electric: #edd53e;
+  --color-fairy: #ec8ce5;
+  --color-fighting: #ce4265;
+  --color-fire: #fb9b51;
+  --color-flying: #90a7da;
+  --color-ghost: #516aac;
+  --color-grass: #5fbc51;
+  --color-ground: #dc7545;
+  --color-ice: #70ccbd;
+  --color-normal: #9298a4;
+  --color-poison: #a864c7;
+  --color-psychic: #f66f71;
+  --color-rock: #c5b489;
+  --color-steel: #52869d;
+  --color-water: #4a90dd;
+
+  --animate-card-flip: flip 1.5s cubic-bezier(0.25, 1.5, 0.5, 1) forwards;
+}
+
+::selection {
+  @apply bg-neutral-600 text-neutral-100;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover {
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  box-shadow: 0 0 0 1000px transparent inset !important;
+  -webkit-text-fill-color: #e5e5e5 !important;
+  caret-color: #e5e5e5 !important;
+  transition: background-color 9999s ease-in-out 0s !important;
+}
+
+@keyframes flip {
+  0% {
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: perspective(800px) rotateY(720deg);
+    opacity: 1;
+  }
+}

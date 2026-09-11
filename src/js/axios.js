@@ -105,7 +105,7 @@ function addPlayer(newPlayer) {
 const newPlayer = {
   name: "Hossein Hosseinzadeh",
   email: "hossein.hosseinzadeh@gmail.com",
-  avatar: "assets/players/hossein.png",
+  avatar: "/assets/images/players/hossein.png",
   level: 23,
   wins: 135,
   pokemonCount: 82,
@@ -133,7 +133,7 @@ const updatedPlayer = {
   id: "",
   name: "Mohammad Mahdi Hosseinzadeh",
   email: "mohammadmahdi.hosseinzadeh@gmail.com",
-  avatar: "assets/players/hossein.png",
+  avatar: "/assets/images/players/hossein.png",
   level: 82,
   wins: 232,
   pokemonCount: 135,

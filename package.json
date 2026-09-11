@@ -9,9 +9,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "watch:tw": "npx @tailwindcss/cli -i ./css/main.css -o ./css/style.css --watch",
-    "watch:pokemon-api": "json-server --watch assets/data/pokemon.json --port 3000",
-    "watch:players-api": "json-server --watch assets/data/players.json --port 3001"
+    "watch:tw": "npx @tailwindcss/cli -i src/css/main.css -o src/css/style.css --watch",
+    "watch:pokemon-api": "json-server --watch public/assets/data/pokemon.json --port 3000",
+    "watch:players-api": "json-server --watch public/assets/data/players.json --port 3001"
   },
   "dependencies": {
     "axios": "^1.20.0",

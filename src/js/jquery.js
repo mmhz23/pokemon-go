@@ -3,7 +3,7 @@ import $ from "jquery";
 const playerData = {
   name: "Hossein Hosseinzadeh",
   email: "hossein.hosseinzadeh@gmail.com",
-  avatar: "assets/players/hossein.png",
+  avatar: "/assets/images/players/hossein.png",
   level: 23,
   wins: 135,
   pokemonCount: 82,
@@ -57,7 +57,7 @@ let currentPokemon = null;
 function showLoadError() {
   $("#pokemon-card").html(`
     <div class="flex items-center justify-center gap-1.5 text-neutral-200">
-      <img src="assets/icons/danger.svg" alt="" class="size-5" />
+      <img src="/assets/icons/danger.svg" alt="" class="size-5" />
       <p>Failed to load pokemon data. Please try again later.</p>
     </div>
   `);
@@ -179,7 +179,7 @@ function renderCard(pokemon) {
     .join("");
 
   const imageSource =
-    pokemon.image || `assets/images/pokemon/${pokemonNumber}.png`;
+    pokemon.image || `/assets/images/pokemon/${pokemonNumber}.png`;
 
   const hasPreviousEvolution = pokemon.evolution?.prev?.length > 0;
   const hasNextEvolution = pokemon.evolution?.next?.length > 0;
@@ -189,7 +189,7 @@ function renderCard(pokemon) {
 
       <div class="relative size-84">
         <div id="spinner" role="progressbar" aria-label="Loading pokemon image" aria-valuetext="Loading in progress" class="flex h-full items-center justify-center">
-          <img src="assets/icons/spinner.svg" alt="" class="size-11 animate-spin" />
+          <img src="/assets/icons/spinner.svg" alt="" class="size-11 animate-spin" />
           <span class="sr-only">Loading pokemon image...</span>
         </div>
         <img id="pokemon-image" src="${imageSource}" alt="${pokemon.name}" class="hidden transition-all duration-300">
@@ -198,39 +198,39 @@ function renderCard(pokemon) {
     <div class="flex flex-col gap-4">
       <div class="flex flex-wrap items-center justify-between gap-1">
         <h2 class="mb-1 flex items-center gap-2 text-2xl font-bold tracking-wider">
-          <img src="assets/icons/pokemon.svg" alt="" class="size-7" />
+          <img src="/assets/icons/pokemon.svg" alt="" class="size-7" />
           <span>${pokemon.name}</span>
         </h2>
 
         <ul class="flex flex-wrap items-center gap-2">${typesHtml}</ul>
 
         <div class="flex w-full items-center gap-1.5 text-neutral-200">
-          <img src="assets/icons/flash.svg" alt="" class="size-5" />
+          <img src="/assets/icons/flash.svg" alt="" class="size-5" />
           <span>${pokemon.candy.name || `${pokemon.name} Candy`}</span>
         </div>
       </div>
 
       <div class="grid grid-cols-2 overflow-hidden rounded-2xl border border-neutral-50/25 bg-neutral-100/25">
         <div class="flex items-center gap-1.5 border-r border-b border-neutral-50/25 p-2 pl-4">
-          <img src="assets/icons/heart.svg" alt="" class="size-5" />
+          <img src="/assets/icons/heart.svg" alt="" class="size-5" />
           <span class="mr-1.5">HP</span>
           <span class="text-sm">${pokemon.hp || "?"}</span>
         </div>
 
         <div class="flex items-center gap-1.5 border-r border-b border-transparent border-b-neutral-50/25 p-2 pl-4">
-          <img src="assets/icons/hammer.svg" alt="" class="size-5" />
+          <img src="/assets/icons/hammer.svg" alt="" class="size-5" />
           <span class="mr-1.5">CP</span>
           <span class="text-sm">${pokemon.cp || "?"}</span>
         </div>
 
         <div class="flex items-center gap-1.5 border-r border-b border-transparent border-r-neutral-50/25 p-2 pl-4">
-          <img src="assets/icons/ruler.svg" alt="" class="size-5" />
+          <img src="/assets/icons/ruler.svg" alt="" class="size-5" />
           <span class="mr-1.5">Height</span>
           <span class="text-sm">${pokemon.height}</span>
         </div>
 
         <div class="flex items-center gap-1.5 border-r border-b border-transparent p-2 pl-4">
-          <img src="assets/icons/weight.svg" alt="" class="size-5" />
+          <img src="/assets/icons/weight.svg" alt="" class="size-5" />
           <span class="mr-1.5">Weight</span>
           <span class="text-sm">${pokemon.weight}</span>
         </div>
@@ -238,7 +238,7 @@ function renderCard(pokemon) {
 
       <div class="flex flex-col gap-2">
         <div class="flex items-center gap-1.5 text-neutral-200">
-          <img src="assets/icons/danger.svg" alt="" class="size-5" />
+          <img src="/assets/icons/danger.svg" alt="" class="size-5" />
           <span>Weaknesses</span>
         </div>
 
@@ -247,13 +247,13 @@ function renderCard(pokemon) {
 
       <div class="mt-2 grid grid-cols-2 items-center gap-3">
         <button type="button" id="previous-evolution-button" ${!hasPreviousEvolution ? "disabled" : ""} class="flex cursor-pointer items-center justify-center gap-1 rounded-full border border-neutral-50/25 bg-neutral-100/25 p-2 text-sm transition-all duration-300 hover:bg-neutral-100/35 focus:bg-neutral-100/35 focus:outline-none disabled:cursor-not-allowed disabled:opacity-70">
-          <img src="assets/icons/arrow-left.svg" alt="" class="size-5" />
+          <img src="/assets/icons/arrow-left.svg" alt="" class="size-5" />
           <span>Previous Evolution</span>
         </button>
 
         <button type="button" id="next-evolution-button" ${!hasNextEvolution ? "disabled" : ""} class="flex cursor-pointer items-center justify-center gap-1 rounded-full border border-neutral-50/25 bg-neutral-100/25 p-2 text-sm transition-all duration-300 hover:bg-neutral-100/35 focus:bg-neutral-100/35 focus:outline-none disabled:cursor-not-allowed disabled:opacity-70">
           <span>Next Evolution</span>
-          <img src="assets/icons/arrow-right.svg" alt="" class="size-5" />
+          <img src="/assets/icons/arrow-right.svg" alt="" class="size-5" />
         </button>
       </div>
     </div>
@@ -303,7 +303,7 @@ function updateCardBySearch(value) {
   if (!pokemon) {
     $("#pokemon-card").html(`
       <div class="flex items-center justify-center gap-1.5 text-neutral-200">
-        <img src="assets/icons/danger.svg" alt="" class="size-5" />
+        <img src="/assets/icons/danger.svg" alt="" class="size-5" />
         <p>Pokemon "${value}" was not found.</p>
       </div>
     `);

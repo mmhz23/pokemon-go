@@ -110,7 +110,7 @@ function loadDataWithGetJson() {
   )
     .done(function (data) {
       pokemonData = data.pokemon;
-      updateCardBySearch("1");
+      updateCardBySearch(1);
     })
     .fail(function () {
       showLoadError();
@@ -332,7 +332,7 @@ $(function () {
   });
 
   $("#search-input").on("keydown", function (event) {
-    if (event.which === 13) {
+    if (event.key === "Enter") {
       event.preventDefault();
       executeSearch();
     }

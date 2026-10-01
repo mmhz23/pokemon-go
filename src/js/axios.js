@@ -89,9 +89,9 @@ async function getSinglePlayer(playerId) {
 // const player = await getSinglePlayer(2);
 
 // Sending a Post Request
-function addPlayer(newPlayer) {
+function addPlayer(playerData) {
   axios
-    .post("http://localhost:3001/players", newPlayer)
+    .post("http://localhost:3001/players", playerData)
     .then(function (response) {
       console.log("Player added successfully:", response.data);
     })
@@ -102,7 +102,7 @@ function addPlayer(newPlayer) {
       console.log("Post request completed.");
     });
 }
-const newPlayer = {
+const newPlayerData = {
   name: "Hossein Hosseinzadeh",
   email: "hossein.hosseinzadeh@gmail.com",
   avatar: "/assets/images/players/hossein.png",
@@ -113,12 +113,12 @@ const newPlayer = {
 };
 // document
 //   .querySelector("#add-player-button")
-//   .addEventListener("click", () => addPlayer(newPlayer));
+//   .addEventListener("click", () => addPlayer(newPlayerData));
 
 // Sending a Put Request
-function updatePlayer(updatedPlayer) {
+function updatePlayer(playerData) {
   axios
-    .put(`http://localhost:3001/players/${updatedPlayer.id}`, updatedPlayer)
+    .put(`http://localhost:3001/players/${playerData.id}`, playerData)
     .then(function (response) {
       console.log("Player updated successfully:", response.data);
     })
@@ -129,7 +129,7 @@ function updatePlayer(updatedPlayer) {
       console.log("Put request completed.");
     });
 }
-const updatedPlayer = {
+const playerToUpdate = {
   id: "",
   name: "Mohammad Mahdi Hosseinzadeh",
   email: "mohammadmahdi.hosseinzadeh@gmail.com",
@@ -141,12 +141,12 @@ const updatedPlayer = {
 };
 // document
 //   .querySelector("#add-player-button")
-//   .addEventListener("click", () => updatePlayer(updatedPlayer));
+//   .addEventListener("click", () => updatePlayer(playerToUpdate));
 
 // Sending a Patch Request
-function updatePlayerPartially(playerId, partialPlayerData) {
+function updatePlayerPartially(playerId, playerData) {
   axios
-    .patch(`http://localhost:3001/players/${playerId}`, partialPlayerData)
+    .patch(`http://localhost:3001/players/${playerId}`, playerData)
     .then(function (response) {
       console.log("Player partially updated:", response.data);
     })
@@ -157,7 +157,7 @@ function updatePlayerPartially(playerId, partialPlayerData) {
       console.log("Patch request completed.");
     });
 }
-const partialPlayerData = {
+const playerChanges = {
   level: 82,
   wins: 232,
   favoritePokemon: "Mewtwo",
@@ -165,7 +165,7 @@ const partialPlayerData = {
 // document
 //   .querySelector("#add-player-button")
 //   .addEventListener("click", () =>
-//     updatePlayerPartially("", partialPlayerData),
+//     updatePlayerPartially("", playerChanges),
 //   );
 
 // Sending a Delete Request

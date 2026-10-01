@@ -1,6 +1,6 @@
 import $ from "jquery";
 
-const playerData = {
+const newPlayerData = {
   name: "Hossein Hosseinzadeh",
   email: "hossein.hosseinzadeh@gmail.com",
   avatar: "/assets/images/players/hossein.png",
@@ -15,7 +15,7 @@ function createPlayerWithAjax() {
   $.ajax({
     url: "http://localhost:3001/players",
     method: "POST",
-    data: JSON.stringify(playerData),
+    data: JSON.stringify(newPlayerData),
     contentType: "application/json",
     dataType: "json",
   })
@@ -34,7 +34,7 @@ function createPlayerWithAjax() {
 function createPlayerWithPost() {
   $.post({
     url: "http://localhost:3001/players",
-    data: JSON.stringify(playerData),
+    data: JSON.stringify(newPlayerData),
     contentType: "application/json",
     dataType: "json",
   })
